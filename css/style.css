@@ -43,6 +43,7 @@ p {
 
 .img-logo {
     height: 60px;
+    height:70px;
 
 }
 .logo-container {
@@ -101,7 +102,7 @@ li, a{
     font-size: 13px;
 }
 
-img {
+.col-img img {
     width: 100%;
 }
   
