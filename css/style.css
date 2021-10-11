@@ -1,0 +1,160 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    margin: auto;
+} 
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: inherit;
+}
+
+.text-box {
+    position: absolute;
+    left: 4%;
+    top: 60%;
+    width: 50%;
+    color: #fff;
+    font-size: 17px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* HEADER */
+.header{
+    margin-bottom: 160px;
+    height: 600px;
+}
+
+.img-logo {
+    height: 60px;
+
+}
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.img-title {
+    background-image: url(../img/banner.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.menu {
+    list-style: none;
+}
+nav {
+    margin-bottom: 25px;
+}
+
+li, a{
+    display: inline-block;
+    margin-right: 5px;
+    color: #959595;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* MAIN */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-container{   
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.riga {
+    margin-bottom: 15px;
+}
+
+.main-title {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.main-paragraph {
+    color: #959595;
+    font-size: 13px;
+}
+
+img {
+    width: 100%;
+}
+  
+.col-img {
+    border-radius: 10px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+
+.object-fit-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.col {
+    float: left;
+}
+
+
+.left,
+.right {
+    width: 23%;
+}
+
+.central {
+    width: 50%;
+    margin: 0 2%;
+}
+
+.text-col > h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.text-col > p{
+    font-size: 13px;
+}
+
+/* FOOTER */
+.footer{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.heart {
+    color: red;
+    font-size: 20px;
+}
+
+
+
