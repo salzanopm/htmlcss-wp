@@ -24,8 +24,8 @@
 
 .text-box {
     position: absolute;
-    left: 4%;
-    top: 60%;
+    left: 50px;
+    bottom: 80px;
     width: 50%;
     color: #fff;
     font-size: 17px;
@@ -51,13 +51,10 @@ p {
 }
 
 .img-title {
-    background-image: url(../img/banner.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    height: 500px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .menu {
@@ -84,8 +81,7 @@ li, a{
 }
 
 .main-container{   
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    margin: 20px 0;
 }
 
 .riga {
@@ -108,7 +104,7 @@ img .object-fit-img {
   
 .col-img {
     border-radius: 10px;
-    height: 180px;
+    height: 200px;
     overflow: hidden;
     position: relative;
     
@@ -117,6 +113,7 @@ img .object-fit-img {
 .object-fit-img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
     
 }
 
