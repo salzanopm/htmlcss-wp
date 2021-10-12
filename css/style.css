@@ -21,7 +21,7 @@
     background-color: rgba(0, 0, 0, .2);
     border-radius: inherit;
 }
-
+/* text banner */
 .text-box {
     position: absolute;
     left: 50px;
@@ -40,14 +40,15 @@ p {
     margin-bottom: 160px;
     height: 430px;
 }
+/* contaner logo */
+.logo-container {
+    margin-bottom: 30px;
+}
 
 .img-logo {
     height: 60px;
     height:70px;
 
-}
-.logo-container {
-    margin-bottom: 30px;
 }
 
 .img-title {
@@ -57,9 +58,11 @@ p {
     overflow: hidden;
 }
 
+/* style menu */
 .menu {
     list-style: none;
 }
+
 nav {
     margin-bottom: 25px;
 }
