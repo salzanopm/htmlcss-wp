@@ -8,7 +8,7 @@
 
 /* COMMON */
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 } 
 
@@ -38,7 +38,7 @@ p {
 /* HEADER */
 .header{
     margin-bottom: 160px;
-    height: 600px;
+    height: 430px;
 }
 
 .img-logo {
@@ -102,7 +102,7 @@ li, a{
     font-size: 13px;
 }
 
-.col-img img {
+img .object-fit-img {
     width: 100%;
 }
   
@@ -111,12 +111,13 @@ li, a{
     height: 180px;
     overflow: hidden;
     position: relative;
+    
 }
 
 .object-fit-img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    
 }
 
 .col {
